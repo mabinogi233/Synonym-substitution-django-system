@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i1$onfir1k&eea4ko0)oq)(3%v7b62pg&q$=t4l8z)@6o&d4!('
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -81,8 +81,8 @@ DATABASES = {
         'HOST': '127.0.0.1',	# 要连接的远程数据库的 ip地址
         'PORT': '3306',	# 数据库连接端口，mysql默认3306
         'USER': 'root',		# 数据库已有用户名
-        'PASSWORD': 'liuwenze0501',	# 数据库已有用户密码
-        'NAME': 'sentence',	# 要连接的 数据库名
+        'PASSWORD': '',	# 数据库已有用户密码
+        'NAME': '',	# 要连接的 数据库名
     }
 }
 
